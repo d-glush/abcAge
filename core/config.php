@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'db' => [
-      'host' => '',
-      'database' => '',
-      'user' => '',
+    'dbConfig' => [
+      'host' => 'localhost',
+      'database' => 'abcAge',
+      'user' => 'mysql',
       'password' => '',
     ]
 ];

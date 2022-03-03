@@ -1,0 +1,9 @@
+.warehouse_elem {
+    display: flex;
+}
+.warehouse_elem>div {
+    margin: 5px;
+}
+.error_message {
+    color: red;
+}

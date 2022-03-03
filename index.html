@@ -5,10 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>abcAge</title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
 </head>
 <body>
-    <input type="date" value="2021-01-01">
-    <button id="show_products_btn">Расчитать</button>
+
+<div class="wrapper">
+
+    <div class="control_panel">
+        <input id="date_selector" type="date" value="2021-01-01">
+        <button id="show_products_btn">Расчитать</button>
+        <div class="error_message"></div>
+    </div>
+    <div class="price_label_info"></div>
+    <div class="warehouse_info">
+
+    </div>
+
+</div>
+
+<script src="src/js/scripts.js" ></script>
 </body>
 </html>
